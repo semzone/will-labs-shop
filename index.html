@@ -2,18 +2,19 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-<title>WilLabs Shop - Home</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="willabs, willabs @ togo, d-link, cat 6, cat 5, ncomputing, projectors, routers, I.T products" />
-<meta name="keywords" content="willabs, d-link, willabs @ togo, projectors, routers, networking, ncomputing, I.T products" />
-<meta name="author" content="cars" />
+    <title>WilLabs Shop - Home</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="willabs, willabs @ togo, d-link, cat 6, cat 5, ncomputing, projectors, routers, I.T products" />
+    <meta name="keywords" content="willabs, d-link, willabs @ togo, projectors, routers, networking, ncomputing, I.T products" />
+    <meta name="author" content="cars" />
     <link rel="shortcut icon" href="favicon.html" >
-   <link rel="icon" type="image/gif" href="favicon.png" >
-<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/gif" href="favicon.png" >
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="sliderengine/jquery.js"></script>
     <script src="sliderengine/amazingslider.js"></script>
     <script src="sliderengine/initslider-1.js"></script>
-    </head>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script></script>
+</head>
     <body>
     <div id="wrapper">
     <div class="header">
@@ -125,179 +126,71 @@
 
 <div class="contents-products-container">
     <div class="left-content">
-    <h2>PRODUCTS</h2>
-<button class="accordion">Projectors</button>
-<div class="panel">
-  <p>
-      <ul>
-          <li><a href="benq-projectors.html">BenQ</a></li>
-          <li><a href="epson-projectors.html">Epson</a></li>
-          <li><a href="optoma-projectors.html">Optoma</a></li>
-      </ul>
-  </p>
+        <h2>PRODUCTS</h2>
+
+        <script>
+            $( document ).ready(function() {
+                var url = "https://raw.githubusercontent.com/semzone/willlabs-shop/master/data.json?token=GHSAT0AAAAAAB7ROEANLHYPBCYQRSAS5U54ZAFDQ6A";
+                $.getJSON( url, {
+                    format: "json"
+                }).done(function(data) {
+                    for (let i = 0; i < data.length; i++) {
+
+                        if (i == 0) {
+                            $("div#data").html("<div "+"id=categ-"+i+">"+data[i].name+"</div>");
+                        } else {
+                            $("<div "+"id=categ-"+i+">"+data[i].name+"</div>").insertAfter($("div#data div").last());
+                        }
+
+                        $("div#data div#categ-"+i).html("<button class=\"accordion\">"+data[i].name+"</button>");
+                        $("<div class=\"panel\"><ul></ul></div>").insertAfter("div#data div#categ-"+i+" .accordion");
+                        for (let j = 0; j < data[i].type.length; j++) {
+                            if (j == 0) {
+                                $("div#data div#categ-"+i+" div.panel ul").html("<li><a href=\""+data[i].name+"-"+data[i].type[j].name+"\">"+data[i].type[j].name+"</a></li>");
+                            } else {
+                                $("<li><a href=\""+data[i].name+"-"+data[i].type[j].name+"\">"+data[i].type[j].name+"</a></li>").insertAfter($("div#data div#categ-"+i+" div.panel ul li").last());
+                            }
+                            
+                        }
+                    }
+                    var acc = document.getElementsByClassName("accordion");
+                    var i;
+
+                    for (i = 0; i < acc.length; i++) {
+                        acc[i].onclick = function(){
+                            this.classList.toggle("active");
+                            this.nextElementSibling.classList.toggle("show");
+                        }
+                    }
+                });
+            });
+        </script>
+        <div id="data"></div>
+
+        <div class="sophos-iframe">
+        <ul>
+            <li>
+                <a href="https://www.sophos.com/en-us.aspx" target=_"blank">Sophos Security</a>
+            </li>
+        </ul>
+        </div>
+
+        <button class="accordion">UTM/Firewall</button>
+        <div id="foo" class="panel">
+            <ul>
+                <li><a href="dlink-firewall.html">D-Link</a></li>
+            </ul>
+        </div>
+
+    </div>
 </div>
-
-<button class="accordion">Dot Matrix</button>
-<div class="panel">
-    <ul>
-          <li><a href="epson-printers.html">Epson</a></li>
-          <li><a href="oki-printers.html">OKI</a></li>
-          <li><a href="olivetti-printers.html">Olivetti</a></li>
-          <li><a href="brother-printers.html">Brother</a></li>
-    </ul>
-</div>
-
-<button class="accordion">IP Phones & <br> IP Surveillance</button>
-<div id="foo" class="panel">
-  <ul>
-          <li><a href="dlink-ip-phones.html">D-Link IP Phones</a></li>
-          <li><a href="dlink-ip-survellaince.html">D-Link IP Surveillance</a></li>
-</ul>
-</div>
-
-<button class="accordion">Networking Items</button>
-<div id="foo" class="panel">
-  <ul>
-          <li><a href="dlink-network.html">D-Link</a></li>
-          <li><a href="excel-network.html">Excel</a></li>
-          <li><a href="giganet-network.html">Giganet</a></li>
-          <li><a href="noyafa.html">Noyafa</a></li>
-          <li><a href="qnap-network.html">Qnap</a></li>
-</ul>
-</div>
-
-<button class="accordion">Video Conferencing</button>
-<div id="foo" class="panel">
-  <ul>
-          <li><a href="http://www.peoplelinkvc.com/" target="_blank">PeopleLink</a></li>
-</ul>
-</div>
-
-
-<button class="accordion">Wireless Range</button>
-<div id="foo" class="panel">
-  <ul>
-          <li><a href="dlink-routers.html">D-Link</a></li>
-          <li><a href="engenius.html">EnGenius</a></li>
-          <li><a href="linksys-routers.html">Linksys</a></li>
-          <li><a href="mikrotik.html">MikroTik</a></li>
-          <li><a href="ubiquiti.html">Ubiquiti</a></li>
-</ul>
-</div>
-
-<button class="accordion">Akuvox</button>
-<div id="foo" class="panel">
-  <ul>
-          <li><a href="akuvox.html">Akuvox Products</a></li>
-</ul>
-</div>
-
-<button class="accordion">Toa</button>
-<div id="foo" class="panel">
-  <ul>
-          <li><a href="toa.html">Toa Products</a></li>
-</ul>
-</div>
-
-<button class="accordion">Desktop Virtualization</button>
-<div id="foo" class="panel">
-  <ul>
-          <li><a href="ncomputing.html">Ncomputing</a></li>
-</ul>
-</div> 
-
-<button class="accordion">Trunkings</button>
-<div id="foo" class="panel">
-  <ul>
-          <li><a href="marshall-tufflex.html">Marshall Tufflex</a></li>
-</ul>
-</div>
-
-<button class="accordion">Toten Cabinets</button>
-<div id="foo" class="panel">
-  <ul>
-          <li><a href="toten-wallmount-cabinets.html">Wall Mount Cabinets</a></li>
-          <li><a href="toten-floor-standing-racks.html">Floor Standing Racks</a></li>
-          <li><a href="toten-floor-standing-server-racks.html">Floor Standing Server Racks</a></li>
-</ul>
-</div>
-
-<button class="accordion">UPS</button> 
-<div id="foo" class="panel">
-  <ul>
-          <li><a href="apc-ups.html">APC</a></li>
-          <li><a href="eaton-ups.html">Eaton</a></li>
-</ul>
-</div>
-
-<button class="accordion">Biometric Devices</button>
-<div id="foo" class="panel">
-  <ul>
-          <li><a href="anviz.html">Anviz</a></li>
-</ul>
-</div>
-
-<button class="accordion">Softwares</button>
-<div id="foo" class="panel">
-  <ul>
-          <li><a href="adobe.html">Adobe</a></li>
-          <li><a href="autodesk.html">Autodesk</a></li>
-</ul>
-</div>
-
-<div class="sophos-iframe">
-  <ul>
-      <li>
-            <a href="https://www.sophos.com/en-us.aspx" target=_"blank">Sophos Security</a>
-      </li>
-  </ul>
-</div>
-
-<button class="accordion">UTM/Firewall</button>
-<div id="foo" class="panel">
-  <ul>
-          <li><a href="dlink-firewall.html">D-Link</a></li>
-</ul>
-</div>
-
-<button class="accordion">Accessories</button>
-<div id="foo" class="panel">
-  <ul>
-          <li><a href="logitech-accessories.html">Logitech</a></li>
-          <li><a href="toshiba-accessories.html">Toshiba</a></li>
-          <li><a href="targus-accessories.html">Targus</a></li>
-          <li><a href="touchmate-accessories.html">Touchmate</a></li>
-          <li><a href="eaton-accessories.html">Eaton</a></li>
-</ul>
-</div>
-
-<button class="accordion">General Accessories</button>
-<div id="foo" class="panel">
-  <ul>
-          <li><a href="sit-stand-converter.html">Sit Stand Converter</a></li>
-          <li><a href="monitor-brackets.html">Monitor Brackets</a></li>
-</ul>
-</div>
-
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-    acc[i].onclick = function(){
-        this.classList.toggle("active");
-        this.nextElementSibling.classList.toggle("show");
-  }
-}
-</script>
     </div><!-- end-of-left-content-->
 
     <div class="home-summary">
-    <ul>
-        <li>willabs @ togo began its operation in Ghana in 2011 with the purpose of being a leading distributor and supplier of Information Technology products to Partners and Resellers in Ghana. Link started with the aim of partnering with manufacturers of quality products and to be the
-        key driver of technology revolution across Ghana .... <a href="about.html">Read More</a>
-        </li>
-    </ul>
+        <ul>
+            <li>
+            </li>
+        </ul>
     </div><!-- end-of-home-summary-->
 
         <div class="home-products"> <!-- right content -->

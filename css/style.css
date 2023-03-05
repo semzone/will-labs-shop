@@ -816,6 +816,7 @@ h5{
  .footer {
  	width: 1200px;
  	height: 50px;
+	margin: auto;
  	margin-top: 10px;
  	background-color: #f57200;
  }
