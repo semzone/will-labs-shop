@@ -1,0 +1,120 @@
+[
+    {
+        "name" : "projector",
+        "type" : [
+            {
+                "name" : "BenQ",
+                "img" : "",
+                "products" : [
+                    {
+                        "model" : "",
+                        "img" : ""
+                    },
+                    {
+                        "model" : "",
+                        "img" : ""
+                    },
+                    {
+                        "model" : "",
+                        "img" : ""
+                    }
+                ]
+            },{
+                "name" : "Epson",
+                "img" : "",
+                "products" : [
+                    {
+                        "model" : "",
+                        "img" : ""
+                    },
+                    {
+                        "model" : "",
+                        "img" : ""
+                    },
+                    {
+                        "model" : "",
+                        "img" : ""
+                    }
+                ]
+            }
+        ],
+        "desc" : "projectors"
+    
+    },
+    {
+        "name" : "dotmatrix",
+        "type" : [
+            {
+                "name" : "Epson",
+                "img" : "",
+                "products" : [
+                    {
+                        "model" : "",
+                        "img" : ""
+                    },
+                    {
+                        "model" : "",
+                        "img" : ""
+                    },
+                    {
+                        "model" : "",
+                        "img" : ""
+                    }
+                ]
+            },{
+                "name" : "OKI",
+                "img" : "",
+                "products" : [
+                    {
+                        "model" : "",
+                        "img" : ""
+                    },
+                    {
+                        "model" : "",
+                        "img" : ""
+                    },
+                    {
+                        "model" : "",
+                        "img" : ""
+                    }
+                ]
+            },{
+                "name" : "Olivetti",
+                "img" : "",
+                "products" : [
+                    {
+                        "model" : "",
+                        "img" : ""
+                    },
+                    {
+                        "model" : "",
+                        "img" : ""
+                    },
+                    {
+                        "model" : "",
+                        "img" : ""
+                    }
+                ]
+            },{
+                "name" : "Brother",
+                "img" : "",
+                "products" : [
+                    {
+                        "model" : "",
+                        "img" : ""
+                    },
+                    {
+                        "model" : "",
+                        "img" : ""
+                    },
+                    {
+                        "model" : "",
+                        "img" : ""
+                    }
+                ]
+            }
+        ],
+        "desc" : "printers"
+    
+    }
+]
