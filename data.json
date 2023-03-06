@@ -40,8 +40,7 @@
         ],
         "desc" : "projectors"
     
-    },
-    {
+    },{
         "name" : "dotmatrix",
         "type" : [
             {
@@ -116,5 +115,30 @@
         ],
         "desc" : "printers"
     
+    },{
+        "name" : "Sophos Security",
+        "type" : [
+            {
+                "name" : "Epson",
+                "img" : "",
+                "products" : [
+                    {
+                        "model" : "",
+                        "img" : ""
+                    },
+                    {
+                        "model" : "",
+                        "img" : ""
+                    },
+                    {
+                        "model" : "",
+                        "img" : ""
+                    }
+                ]
+            }
+        ],
+        "desc" : "printers"
+    
     }
+
 ]
