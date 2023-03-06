@@ -130,7 +130,7 @@
 
         <script>
             $( document ).ready(function() {
-                var url = "https://raw.githubusercontent.com/semzone/willlabs-shop/master/data.json?token=GHSAT0AAAAAAB7ROEANWBTNFZI5XDTBSQBGZAGA3AQ";
+                var url = "https://raw.githubusercontent.com/semzone/willlabs-shop/master/data.json?token=GHSAT0AAAAAAB7ROEAM3SXMPENJ6NNMU3H2ZAGCZZA";
                 $.getJSON( url, {
                     format: "json"
                 }).done(function(data) {
@@ -139,19 +139,26 @@
                         if (i == 0) {
                             $("div#data").html("<div "+"id=categ-"+i+">"+data[i].name+"</div>");
                         } else {
-                            $("<div "+"id=categ-"+i+">"+data[i].name+"</div>").insertAfter($("div#data div").last());
+                            $("<div "+"id=categ-"+i+"></div>").insertAfter("div#data div#categ-"+(i-1));
                         }
 
-                        $("div#data div#categ-"+i).html("<button class=\"accordion\">"+data[i].name+"</button>");
-                        $("<div class=\"panel\"><ul></ul></div>").insertAfter("div#data div#categ-"+i+" .accordion");
-                        for (let j = 0; j < data[i].type.length; j++) {
-                            if (j == 0) {
-                                $("div#data div#categ-"+i+" div.panel ul").html("<li><a href=\""+data[i].name+"-"+data[i].type[j].name+"\">"+data[i].type[j].name+"</a></li>");
-                            } else {
-                                $("<li><a href=\""+data[i].name+"-"+data[i].type[j].name+"\">"+data[i].type[j].name+"</a></li>").insertAfter($("div#data div#categ-"+i+" div.panel ul li").last());
+                        if (data[i].type != null) {
+                            $("div#data div#categ-"+i).html("<button type=\"button\" class=\"accordion\">"+data[i].name+"</button>");
+                            $("<div class=\"panel\"><ul></ul></div>").insertAfter("div#data div#categ-"+i+" button.accordion");
+                            for (let j = 0; j < data[i].type.length; j++) {
+                                if (j == 0) {
+                                    $("div#data div#categ-"+i+" div.panel ul").html("<li><a href=\""+data[i].name+"-"+data[i].type[j].name+"\">"+data[i].type[j].name+"</a></li>");
+                                } else {
+                                    $("<li><a href=\""+data[i].name+"-"+data[i].type[j].name+"\">"+data[i].type[j].name+"</a></li>").insertAfter($("div#data div#categ-"+i+" div.panel ul li").last());
+                                }
+                                
                             }
-                            
+                        } else {
+                            $("div#data div#categ-"+i).html("<div class=\"panel\"><ul></ul></div>");
+                            $("div#data div#categ-"+i+" div.panel ul").html("<li><a href=\""+data[i].name+"\">"+data[i].name+"</a></li>");
+                            alert("One joke");
                         }
+
                     }
                     var acc = document.getElementsByClassName("accordion");
                     var i;
@@ -166,21 +173,6 @@
             });
         </script>
         <div id="data"></div>
-
-        <div class="sophos-iframe">
-        <ul>
-            <li>
-                <a href="https://www.sophos.com/en-us.aspx" target=_"blank">Sophos Security</a>
-            </li>
-        </ul>
-        </div>
-
-        <button class="accordion">UTM/Firewall</button>
-        <div id="foo" class="panel">
-            <ul>
-                <li><a href="dlink-firewall.html">D-Link</a></li>
-            </ul>
-        </div>
 
     </div>
 </div>
