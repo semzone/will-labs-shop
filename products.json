@@ -1,0 +1,1003 @@
+[
+    {
+        "id": "",
+        "model": "EX501",
+        "type_id": 1,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/benq-ex501.png",
+        "features": [
+            "3000 ANSI lumens",
+            "High contrast ratio of 13000:1",
+            "Native Resolution-XGA (1024 x 768)",
+            "Up to 10,000 hours long lamp life",
+            "SmartEco power saving technology",
+            "<0.5W standby mode",
+            "Auto vertical keystone"
+        ]
+    },
+    {
+        "model": "MS506",
+        "type_id": 1,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/benq-ms506.png",
+        "features": [
+            "3200 ANSI Lumens",
+            "high contrast ratio of 13000:1",
+            "Native Resolution-SVGA (800 x 600)",
+            "SmartEco Power Saving technology",
+            "Up to10,000 hours long lamp life",
+            "<0.5W standby mode",
+            "a stunning full-screen presentation"
+        ]
+    },
+    {
+        "model": "MS524",
+        "type_id": 1,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/benq-ms524.png",
+        "features": [
+            "3200 ANSI lumens",
+            "High contrast ratio of 13000:1",
+            "Native Resolution SVGA(800 x 600)",
+            "SmartEco Technology for Power Saving",
+            "Blu-ray Full HD 3D Support",
+            "LampSave Mode for Lower Replacement Cost"
+        ]
+    },
+    {
+        "model": "MX507",
+        "type_id": 1,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/benq-mx507.png",
+        "features": [
+            "3200 ANSI Lumens",
+            "High contrast ratio of 13000:1",
+            "Native Resolution - XGA (1024 x 768)",
+            "SmartEco Technology for Power Saving",
+            "Up to 10,000 hours long lamp life",
+            "<0.5W standby mode"
+        ]
+    },
+    {
+        "model": "MX666",
+        "type_id": 1,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/benq-mx666.png",
+        "features": [
+            "3,500 ANSI Lumens",
+            "Native Resolution - XGA (1024x768)",
+            "Wireless display with notebook",
+            "Blu-ray Full HD 3D support",
+            "MHL mirror the screen of smart devicee",
+            "tapNshow for NFC smart device",
+            "Vertical and horizontal keystone"
+        ]
+    },
+    {
+        "model": "MX704",
+        "type_id": 1,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/benq-mx704.png",
+        "features": [
+            "4,000 ANSI Lumen High Brightness",
+            "Native Resolution - XGA (1024x768)",
+            "Contrast Ratio - 13000:1",
+            "3D Support and Compatibility",
+            "Quiet Projector with Noise 31dB for Corporate Presentation",
+            "User-friendly Keypad for Easy Operation",
+            "Whisper Quiet 31dB in Daily Meeting",
+            "Wireless Presentation via Your Smart Device by QCast (optional)"
+        ]
+    },
+    {
+        "model": "SX920",
+        "type_id": 1,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/benq-sx920.png",
+        "features": [
+            "Brightness 5,000 ANSI Lumens",
+            "Contrast Ratio - 5,000:1",
+            "Native Resolution - XGA (1024 x 768)",
+            "Big Zoom 1.6X",
+            "Vertical Lens Shift",
+            "Easy installation and control",
+            "Sleekly styled in a streamlined brushed-metallic design"
+        ]
+    },
+    {
+        "model": "MW920",
+        "type_id": 1,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/benq-mw526.png",
+        "features": [
+            "Brightness 3,200 ANSI Lumens",
+            "Contrast Ratio - 13000:1",
+            "Native WXGA Resolution (1280x800)",
+            "SmartEcoT Power Saving Technology",
+            "Full 3D Ready",
+            "Up to 10,000 Hours Long Lamp Life",
+            "<0.5W Standby Mode & HDMI"
+        ]
+    },
+    {
+        "model": "TH681",
+        "type_id": 1,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/benq-th681.png",
+        "features": [
+            "Brightness 3,000 ANSI Lumens",
+            "Contrast ratio of 10,000:",
+            "Native Resolution Full HD (1920 x 1080)",
+            "3D Support and Compatibility",
+            "Lamp (Normal/Economic Mode/SmartEco Mode)* *4000 / *5000 / *6500 hours"
+        ]
+    },
+    {
+        "model": "Dongle Qcast For MS524 & MX704",
+        "type_id": 1,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/benq-dongle-qcast.png",
+        "features": [
+            "By utilizing NFC technology, the Quick Wireless NFC Kit enables you to make your business presentations wirelessly using your NFC-enabled smartphone or tablet.",
+            "Simply tap to set up your NFC-enabled wireless projection in an instant and enjoy presenting your business proposals confidently and professionally at all times."
+        ]
+    },
+    {
+        "model": "Dongle For MX666+ MW665+ / MX704 / MW705",
+        "type_id": 1,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/benq-dongle-mw666+.png",
+        "features": [
+            "By utilizing NFC technology, the Quick Wireless NFC Kit enables you to make your business presentations wirelessly using your NFC-enabled smartphone or tablet.",
+            "Simply tap to set up your NFC-enabled wireless projection in an instant and enjoy presenting your business proposals confidently and professionally at all times."
+        ]
+    },
+    {
+        "model": "EB-S18",
+        "type_id": 1,
+        "brand_id": 2,
+        "img": "http://www.link-ghana.com/images/epson-eb-s18.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "EB-S31",
+        "type_id": 1,
+        "brand_id": 2,
+        "img": "http://www.link-ghana.com/images/epson-eb-s31.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "EB-X18",
+        "type_id": 1,
+        "brand_id": 2,
+        "img": "http://www.link-ghana.com/images/epson-eb-x18.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "DV20A",
+        "type_id": 1,
+        "brand_id": 3,
+        "img": "http://www.link-ghana.com/images/optoma-dv20a.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "ES-521",
+        "type_id": 1,
+        "brand_id": 3,
+        "img": "http://www.link-ghana.com/images/optoma-es521.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "ES-526",
+        "type_id": 1,
+        "brand_id": 3,
+        "img": "http://www.link-ghana.com/images/optoma-es526.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "EW-531",
+        "type_id": 1,
+        "brand_id": 3,
+        "img": "http://www.link-ghana.com/images/optoma-ew531.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "EX-531",
+        "type_id": 1,
+        "brand_id": 3,
+        "img": "http://www.link-ghana.com/images/optoma-ex531.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "EX-551",
+        "type_id": 1,
+        "brand_id": 3,
+        "img": "http://www.link-ghana.com/images/optoma-ex551.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "EX-538",
+        "type_id": 1,
+        "brand_id": 3,
+        "img": "http://www.link-ghana.com/images/optoma-ex538.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "EX-555",
+        "type_id": 1,
+        "brand_id": 3,
+        "img": "http://www.link-ghana.com/images/optoma-ex555.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "EX-605ST",
+        "type_id": 1,
+        "brand_id": 3,
+        "img": "http://www.link-ghana.com/images/optoma-ex605st.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "EX-612",
+        "type_id": 1,
+        "brand_id": 3,
+        "img": "http://www.link-ghana.com/images/optoma-ex612.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "EX-615",
+        "type_id": 1,
+        "brand_id": 3,
+        "img": "http://www.link-ghana.com/images/optoma-ex615.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "EX-631",
+        "type_id": 1,
+        "brand_id": 3,
+        "img": "http://www.link-ghana.com/images/optoma-ex631.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "EX-762",
+        "type_id": 1,
+        "brand_id": 3,
+        "img": "http://www.link-ghana.com/images/optoma-ex762.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "Pico PK120",
+        "type_id": 1,
+        "brand_id": 3,
+        "img": "http://www.link-ghana.com/images/optoma-pico-pk120.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "Pico PK201",
+        "type_id": 1,
+        "brand_id": 3,
+        "img": "http://www.link-ghana.com/images/optoma-pico-pk201.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "Pico PK301",
+        "type_id": 1,
+        "brand_id": 3,
+        "img": "http://www.link-ghana.com/images/optoma-pico-pk301.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "LQ-690",
+        "type_id": 2,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/epson-lq-690.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "LQ-350",
+        "type_id": 2,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/epson-lq-350.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "LX-350",
+        "type_id": 2,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/epson-lx-350.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "LQ-2190",
+        "type_id": 2,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/epson-lq-2190.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "LQ-2190N",
+        "type_id": 2,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/epson-lq-2190n.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "FX-890",
+        "type_id": 2,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/epson-fx-890.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "FX-2190N",
+        "type_id": 2,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/epson-fx-2190n.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "L300",
+        "type_id": 2,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/epson-l300.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "M100",
+        "type_id": 2,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/epson-m100.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "L210",
+        "type_id": 2,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/epson-l210.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "Workforce m200",
+        "type_id": 2,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/epson-workForce-m200.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "DFX-9000",
+        "type_id": 2,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/epson-dfx-9000.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "TM-U220B Receipt Printer",
+        "type_id": 2,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/epson-tm-u220b.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "TM-T20 Receipt Printer",
+        "type_id": 2,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/epson-tm-t20.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "TM-T20-002 Receipt Printer",
+        "type_id": 2,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/epson-tm-t20.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "TM-T20II-003 Receipt Printer",
+        "type_id": 2,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/epson-tm-t20.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "TM-T88V",
+        "type_id": 2,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/epson-tm-t88v.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "TM-T70",
+        "type_id": 2,
+        "brand_id": 1,
+        "img": "http://www.link-ghana.com/images/epson-tm-t70.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "PR2 Plus Passbook Printer",
+        "type_id": 2,
+        "brand_id": 5,
+        "img": "http://www.link-ghana.com/images/olivetti-pr-plus.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "P touch ptd-600dv",
+        "type_id": 2,
+        "brand_id": 6,
+        "img": "http://www.link-ghana.com/images/brother-ptouch-ptd600dv.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "D-Link-DPH-150S/E/F1",
+        "img": "http://www.link-ghana.com/images/dlink-ip-phones-dph-150s-e-f-1.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "D-Link-DPH-150SE/B/F3",
+        "img": "http://www.link-ghana.com/images/dlink-ip-phones-dph-150se-b-f-3.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "D-Link-DPH-150SE/F4",
+        "img": "http://www.link-ghana.com/images/dlink-ip-phones-dph-150se-b-f-3.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "D-Link-DPH-400SE/E/F3",
+        "img": "http://www.link-ghana.com/images/dlink-ip-phones-dph-400se-3-f3.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "D-Link-DPH-400SE/B/F4",
+        "img": "http://www.link-ghana.com/images/dlink-ip-phones-dph-400se-b-f4.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "D-Link-DPH-850S Video",
+        "img": "http://www.link-ghana.com/images/dlink-ip-phones-dph-850s.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "D-Link-DVG-6001G",
+        "img": "http://www.link-ghana.com/images/dlink-ip-phones-dvg-6001g.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "D-Link-DVG-6004G",
+        "img": "http://www.link-ghana.com/images/dlink-ip-phones-dvg-6004g.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "D-Link-DVG-6004S/E",
+        "img": "http://www.link-ghana.com/images/dlink-ip-phones-dvg-6004se.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "D-Link-DVG-5004S/E",
+        "img": "http://www.link-ghana.com/images/dlink-ip-phones-dvg-6004se.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "D-Link-DVX-2004F/B/F2 IPPBX",
+        "img": "http://www.link-ghana.com/images/dlink-ip-phones-dvx-2004f-b-f2.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "D-Link-DVX-2004G/B/F1 IPPBX",
+        "img": "http://www.link-ghana.com/images/dlink-ip-phones-dvx-2004f-b-f2.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "D-Link-DVX-2005F IPPBX",
+        "img": "http://www.link-ghana.com/images/dlink-ip-phones-dvx-2004f.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "D-Link-DVX-8000M/E IPPBX",
+        "img": "http://www.link-ghana.com/images/dlink-ip-phones-dvx-8000me.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "MODULE DVX-8010",
+        "img": "http://www.link-ghana.com/images/dlink-ip-phones-module-dvx-8010.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "model": "MODULE DVX-8020",
+        "img": "http://www.link-ghana.com/images/dlink-ip-phones-module-dvx-8020.png",
+        "features": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    }
+]

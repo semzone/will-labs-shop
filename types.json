@@ -1,0 +1,78 @@
+[
+    {
+        "id": 1,
+        "name": "Projectors"
+    },
+    {
+        "id": 2,
+        "name": "Dot Matrix"
+    },
+    {
+        "id": 3,
+        "name": "IP Phones"
+    },
+    {
+        "id": 4,
+        "name": "IP Surveillance"
+    },
+    {
+        "id": 5,
+        "name": "Networking Items"
+    },
+    {
+        "id": 6,
+        "name": "Video Conferencing"
+    },
+    {
+        "id": 7,
+        "name": "Wireless Range"
+    },
+    {
+        "id": 8,
+        "name": "Akuvox"
+    },
+    {
+        "id": 9,
+        "name": "Professional Audio Equipment"
+    },
+    {
+        "id": 10,
+        "name": "Desktop Virtualization"
+    },
+    {
+        "id": 11,
+        "name": "Trunkings"
+    },
+    {
+        "id": 12,
+        "name": "Wall Mount Cabinets"
+    },
+    {
+        "id": 13,
+        "name": "Floor Standing Racks"
+    },
+    {
+        "id": 14,
+        "name": "Floor Standing Server Racks"
+    },
+    {
+        "id": 15,
+        "name": "UPS"
+    },
+    {
+        "id": 16,
+        "name": "Biometric Devices"
+    },
+    {
+        "id": 15,
+        "name": "Softwares"
+    },
+    {
+        "id": 17,
+        "name": "UTM/Firewall"
+    },
+    {
+        "id": 18,
+        "name": "Accessories"
+    }
+]
