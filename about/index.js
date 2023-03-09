@@ -1,0 +1,1 @@
+document.querySelector('title').innerText = "WilLabs Shop - À propos";
